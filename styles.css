@@ -1,0 +1,124 @@
+body{
+    background-color:rgb(242, 201, 152);
+    font-family:orbitron,sans-serif;
+}
+
+.display span{
+    background-color:unset;
+    color:white;
+    position:relative;
+    top:50px;
+    font-size:40px;
+    border:unset;
+}
+.display span:hover{
+    color:white;
+    border:black;
+}
+.container{
+    background-color:royalblue;
+    width:300px;
+    height:500px;
+    margin: 200px auto;
+    border-radius:20px;
+    display:grid;
+    box-shadow: 20px 0px 50px;
+    overflow:hidden;
+    padding: 0 7px 15px 7px;
+    border:solid;
+}
+span{
+    font-size:45px;
+    background-color:whitesmoke;
+    padding: 2px 10px;
+    border-radius:10px;
+    border:solid 1px;
+}
+
+span:hover{
+color:lightblue;
+background-color:black;
+transition:.15s ease-in-out;
+border:1px solid black;
+transform:scale(1.2);
+}
+span:active{
+    transform:scale(0.8);
+    background-color:black;
+    color:lightblue;
+}
+.display{
+    background-color:black;
+    border-radius:10px;
+    height:100px;
+    width:95%;
+    max-width:95%;
+    margin:15px auto 0px;
+    border:solid ;
+    text-align:right;
+    overflow:hidden;
+    overflow-wrap: break-word;
+     opacity:.85;
+}
+
+.first-row{
+display:flex;
+justify-content:space-around; 
+   
+}
+.third-row{
+display:flex;
+justify-content:space-around; 
+   
+}
+.second-row{
+display:flex;
+justify-content:space-around; 
+   
+}
+.fourth-row{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    column-gap:10px;
+    width:90%;
+    margin:auto;
+}
+.fifth-row{
+display:grid;
+grid-template-columns:1fr 2fr;
+column-gap:10px;
+width:90%;
+margin:auto;
+}
+
+.number-row{
+    text-align:center;
+    margin-top:10px;
+}
+
+.number-key{
+    width:50px;
+    box-shadow:0px 0px 10px;
+    cursor:pointer;
+    background-color:lightblue;
+}
+
+.fourth-row-key{
+    box-shadow:0px 0px 10px;
+    cursor:pointer;
+    background-color:lightblue;
+    margin-top:5px;
+}
+.fourth-row-key:nth-of-type(1){
+    width:50px;
+
+}
+.fifth-row-key:nth-of-type(1){
+    width:50px;
+}
+
+.fifth-row-key{
+    box-shadow:0px 0px 10px;
+    cursor:pointer;
+    background-color:lightblue;
+}
